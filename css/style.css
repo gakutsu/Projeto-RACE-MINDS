@@ -485,7 +485,7 @@ span {
 .footer-text p {
     font-size: 2.5rem;
     font-weight: 700;
-    color: var(--logo-color);
+    color: var(--main-color);
 }
 
 span .footer-text p {
@@ -690,6 +690,17 @@ section:nth-child(odd) .animate.scroll,
         font-size: 5.2rem;
     }
 
+    .btn-box.btns {
+        text-align: center;
+        align-items: center;
+        margin-left: -11%;
+    }
+
+    #menu-icon {
+        display: flex;
+        margin-right: 15%;
+    }
+
     .education {
         padding: 10rem 4% 5rem 5%;
     }
@@ -705,8 +716,39 @@ section:nth-child(odd) .animate.scroll,
 }
 
 @media (max-width: 371px) {
-    .home {
+    .home .home-content .text-animate {
         justify-content: center;
+        text-align: center;
+    }
+
+    .home .home-content h1 {
+        font-size: 35px;
+        text-align: center;
+        margin-left: -5.75%;
+    }
+
+    .home-content .text-animate h3 {
+        font-size: 25px;
+        text-align: center;
+        margin-left: -8%;
+    }
+
+    .home-content p {
+        font-size: 15px;
+        text-align: center;
+        margin-left: -5%;
+        max-width: 300px;
+    }
+
+    .btn-box.btns {
+        text-align: center;
+        align-items: center;
+        margin-left: -12.5%;
+    }
+
+    #menu-icon {
+        display: flex;
+        margin-right: 22%;
     }
 
     .home-content {
@@ -718,6 +760,20 @@ section:nth-child(odd) .animate.scroll,
 
     .home-content h1 {
         font-size: 5rem;
+    }
+
+    .btn-box {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: -6.8%;
+    }
+
+    .btn-box.btns {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: -13%;
     }
 }
 /* BREAKPOINTS */
